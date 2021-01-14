@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar{
+    @apply flex items-center justify-between w-10/12 mx-auto py-3 text-black ;
+}
+
+.navitem{
+    @apply text-xl mr-4;
+}
