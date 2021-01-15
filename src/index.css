@@ -2,10 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar{
-    @apply flex items-center justify-between w-10/12 mx-auto py-3 text-black ;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:ital,wght@1,700&display=swap');
+
+
+.name{
+    font-family: 'Anton', sans-serif;
+    @apply text-6xl sm:text-7xl font-bold text-blue-500 pt-44;  
 }
 
-.navitem{
-    @apply text-xl mr-4;
+.student{
+    @apply mb-1 py-2;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.2em;
 }
+
+
+.typical{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(48, 185, 48);
+    text-shadow: 0px 1px 1px rgb(77, 238, 37);
+}
+
+body{
+    font-family: 'Bebas Neue';
+    letter-spacing: 0.1em;
+}
+

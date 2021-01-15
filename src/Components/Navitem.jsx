@@ -1,11 +1,17 @@
-import React from 'react';
+import React from "react";
 
-const Navitem = ({title}) => {
-    return (
-        <span className="navitem">
-           {title}
-        </span>
-    );
-}
+const Navitem = ({title, id}) => {
+  return (
+    <div className="ml-6">
+      <a href="/test">
+        <div className="flex items-center justify-end">
+          <div className="sm:w-10 border-b border-solid border-white w-5"></div>
+          <h1 className="sm:ml-3 sm:text-xs font-bold ml-1">{id}</h1>
+        </div>
+        <div className="text-right text-xs">{title}</div>
+      </a>
+    </div>
+  );
+};
 
 export default Navitem;
