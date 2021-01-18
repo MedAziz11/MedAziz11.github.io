@@ -8,8 +8,8 @@
 
 
 .name{
-    font-family: 'Anton', sans-serif;
-    @apply text-6xl sm:text-7xl font-bold text-blue-500 pt-44;  
+    
+    @apply text-5xl sm:text-7xl font-bold text-blue-500 pt-4 sm:pt-64;  
 }
 
 .student{
